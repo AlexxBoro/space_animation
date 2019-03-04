@@ -1,0 +1,67 @@
+.pleiades {
+    background-color: white;
+    border-radius:  50%;
+    box-shadow: 0 0 10px 5px #555;
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    animation-name: pleiades;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+
+.star01 {
+    @extend .pleiades;
+    top: 192px;
+    left: 100px;
+}
+.star02 {
+    @extend .pleiades;
+    top: 166px;
+    left: 100px;
+    height:3px;
+    width:3px;
+}
+.star03 {
+    @extend .pleiades;
+    top: 177px;
+    left: 161px;
+}
+.star04 {
+    @extend .pleiades;
+    top: 200px;
+    left: 209px;
+}
+.star05 {
+    @extend .pleiades;
+    top: 123px;
+    left: 221px;
+}
+.star06 {
+    @extend .pleiades;
+    top: 161px;
+    left: 264px;
+}
+.star07 {
+    @extend .pleiades;
+    top: 103px;
+    left: 243px;
+    height:3px;
+    width:3px;
+}
+
+@keyframes pleiades {
+    0% {
+        opacity: 1;
+        box-shadow: 0 0 20px 5px #555;
+    }
+    50% {
+        opacity: 0.5;
+        box-shadow: 0 0 10px 5px #555;
+    }
+    100% {
+        opacity: 1;
+        box-shadow: 0 0 20px 5px #555;
+    }
+}
