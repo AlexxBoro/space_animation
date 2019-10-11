@@ -1,6 +1,6 @@
 # space_animation
 
-a short space animation created for fun, https://codepen.io/alexxboro/pen/vPKQRp 
+a short space animation created for fun 
 
 HTML + Scss
 
